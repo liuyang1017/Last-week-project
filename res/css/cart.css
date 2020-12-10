@@ -1,0 +1,283 @@
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* 头部 */
+
+.header {
+    width: 100%;
+    height: 137px;
+}
+
+.header-top {
+    width: 100%;
+    height: 34px;
+    background-color: #F9F9F9;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.header-top-box {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header-top-box>div {
+    position: absolute;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.header-top-box>div>p {
+    display: flex;
+    margin: 0 7px;
+}
+
+.header-top-box>div>p>a {
+    padding: 0 5px;
+}
+
+.header-top-box>div>p>a:first-of-type {
+    color: red;
+    text-decoration: none;
+}
+
+.header-top-box>div>p>a:last-of-type {
+    color: #646464;
+    text-decoration: none;
+}
+
+.header-top-box>div>p>a:last-of-type:hover {
+    color: red;
+}
+
+.header-top-box>div>a {
+    padding: 0 8px;
+    border-left: 1px solid #E6E6E6;
+    color: #646464;
+    text-decoration: none;
+}
+
+.header-top-box>div>a:first-of-type {
+    border: 0;
+}
+
+.header-top-box>div>a:hover {
+    color: red;
+}
+
+.header-logo {
+    width: 100%;
+    border-bottom: 3px solid red;
+}
+
+.header-logo-center {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-rr {
+    width: 634px;
+    height: 36px;
+    display: flex;
+    background: url(../images/bg-333.png);
+}
+
+.header-rr>p {
+    flex: 1;
+    color: #646464;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-rr>p:first-of-type {
+    color: white;
+}
+
+
+/* 内容 */
+
+.centent-address {
+    width: 100%;
+    background-color: #FAFAFA;
+}
+
+.centent-address-center {
+    display: flex;
+    height: 54px;
+    align-items: center;
+}
+
+.centent-address-center>p {
+    width: 216px;
+    height: 22px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 11px;
+    border: 1px solid #EBEBEB;
+    background-color: white;
+}
+
+.centent-address-center>p>i {
+    display: flex;
+    margin-right: 5px;
+    color: #969696;
+}
+
+.centent-address-center>p>i>span {
+    margin: 0 4px;
+}
+
+.centent-address-center>p>i>b {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background: url(../images/bart--jingling.png) 0 4px no-repeat;
+}
+
+
+/* 购物车内容 */
+
+.centent {
+    width: 100%;
+}
+
+.carts {
+    background-color: rgba(195, 230, 245, 0.2);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.goodsList>li {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color: rgba(135, 206, 235, 0.3);
+    margin: 8px 0;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    position: relative;
+}
+
+.select>input {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.goodsImg>img {
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.goodsDesc>p {
+    width: 600px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0 12px;
+}
+
+.price {
+    display: flex;
+    font-size: 26px;
+}
+
+.count {
+    display: flex;
+    position: absolute;
+    top: 45%;
+    right: 200px;
+}
+
+.count>button,
+.count>input {
+    width: 25px;
+    height: 22px;
+    margin: 0 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.xiaoji {
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+    top: 60%;
+    right: 205px;
+}
+
+.operate {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+
+/* .jumbotron {
+    background-color: rgba(195, 230, 245, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.panel-info {
+    margin: 15px 0;
+}
+
+.btn {
+    background-color: rgba(255, 0, 0, 0.6);
+    margin: 0 5px;
+}
+
+.mamama {
+    background-color: rgba(0, 0, 255, 0.5);
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 网页尾部 */
+
+.footer-pp {
+    margin-top: 30px;
+    width: 100%;
+    border-top: 2px solid red;
+}
+
+.footer-center {
+    height: 48px;
+    color: #8C8C8C;
+    position: relative;
+    margin-top: 30px;
+}
+
+.footer-pp>div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer-pp>div>a {
+    color: #8C8C8C;
+    margin: 0 6px;
+}

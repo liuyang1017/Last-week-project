@@ -1,0 +1,475 @@
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+}
+
+.header-logo {
+    height: 60px;
+    margin: 12px auto 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo>div {
+    font-size: 12px;
+}
+
+.header-logo>div>a {
+    color: #787878;
+}
+
+.header-logo>div>a:hover {
+    border-bottom: 1px solid #787878;
+}
+
+.centent {
+    width: 100%;
+    height: 590px;
+    background: url(../images/logo-go-banner.jpg) no-repeat center center;
+}
+
+.centent-center {
+    height: 100%;
+}
+
+.centent-box {
+    float: right;
+    width: 320px;
+    padding: 15px;
+    padding-right: 25px;
+    height: 425px;
+    margin: 90px auto 0;
+    border: 1px solid #eef2f4;
+    box-shadow: 0px 1px 2px #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+}
+
+.centent-box>p>a {
+    color: #1A66B3;
+}
+
+.centent-box>b {
+    position: absolute;
+    top: -3px;
+    font-size: 12px;
+    border: 1px solid #fedbd1;
+    color: #ff572a;
+    top: 7px;
+    right: 68px;
+}
+
+.centent-box>b>span {
+    background: url(../images/sanjiao\ .png) no-repeat;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: -12px;
+    top: 1px;
+}
+
+.centent-box>a {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.centent-box>p {
+    font-size: 12px;
+    width: 360px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #fedbd1;
+    position: absolute;
+    left: 0;
+    top: -27px;
+}
+
+.centent-box>h5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.gogo {
+    margin-top: 10px;
+    width: 100%;
+    height: 130px;
+    position: relative;
+}
+
+
+/* 登录盒子 */
+
+
+/* .info {
+    width: 278px;
+    height: 132px;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.panel {
+    position: absolute;
+    padding: 0;
+    width: 278px;
+    height: 126px;
+    border-radius: 0;
+    border: 0;
+}
+
+.land {
+    width: 80px;
+    position: absolute;
+    top: 260px;
+}
+
+.register {
+    width: 80px;
+    position: absolute;
+    top: 260px;
+    left: 145px;
+}
+
+.col-sm-11 {
+    border: 0;
+}
+
+.info .login,
+.info .register {
+    display: inline;
+}
+
+input.error {
+    border: 1px solid red;
+}
+
+label.error {
+    color: red;
+}
+
+.login_error {
+    color: red;
+}
+
+.col-sm-11 {
+    padding: 0;
+}
+
+.form-group {
+    display: flex;
+}
+
+.form-group>label {
+    width: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.username,
+.password {
+    width: 100%;
+    height: 34px;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    position: relative;
+} */
+
+.input-username,
+.input-password {
+    width: 321px;
+    height: 38px;
+    margin-top: 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+    position: relative;
+}
+
+.input-username>span,
+.input-password>span {
+    width: 30px;
+    height: 36px;
+    margin-right: 10px;
+    position: absolute;
+}
+
+.input-username>span {
+    background: url(../images/logo-jingling.png)10px -110px no-repeat;
+}
+
+.input-password>span {
+    background: url(../images/logo-jingling.png)10px -150px no-repeat;
+}
+
+.input-username>input,
+.input-password>input {
+    width: 285px;
+    height: 100%;
+    display: block;
+    float: right;
+}
+
+.input-username>b,
+.input-password>b {
+    position: absolute;
+    font-size: 14px;
+    width: 300px;
+    height: 30px;
+    color: red;
+    bottom: -30px;
+    display: none;
+}
+
+.input-username>b.active {
+    display: block;
+}
+
+.input-password>b.active {
+    display: block;
+}
+
+.input-username>i,
+.input-password>i {
+    position: absolute;
+    display: block;
+    font-size: 12px;
+    color: #B0B0B0;
+    left: 40px;
+    top: 10px;
+    pointer-events: none;
+}
+
+.input-username>i.active {
+    display: none;
+}
+
+.input-password>i.active {
+    display: none;
+}
+
+.centent-change {
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 1px 8px;
+}
+
+.centent-change>p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #555555;
+}
+
+.centent-change>p>a {
+    color: #1A66B3;
+}
+
+.centent-change-box {
+    width: 100%;
+    height: 60px;
+    margin: 8px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.centent-change-box>div {
+    width: 76px;
+    height: 76px;
+    background-position: 0px 0px;
+}
+
+.centent-change-box>div:nth-of-type(1) {
+    background-image: url("https://rotate.dangdang.com/rotate.php?t=1607437965000");
+}
+
+.centent-change-box>div:nth-of-type(2) {
+    background-image: url("https://rotate.dangdang.com/rotate.php?t=1607437965000");
+    background-position: -76px 0px;
+}
+
+.centent-change-box>div:nth-of-type(3) {
+    background-image: url("https://rotate.dangdang.com/rotate.php?t=1607437965000");
+    background-position: -152px 0px;
+}
+
+.centent-change-box>div:nth-of-type(4) {
+    background-image: url("https://rotate.dangdang.com/rotate.php?t=1607437965000");
+    background-position: -228px 0px;
+}
+
+.but {
+    width: 100%;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    border: 0;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    background-color: red;
+    cursor: pointer;
+}
+
+.centent-option {
+    width: 100%;
+    height: 27px;
+    margin-top: 7px;
+    display: flex;
+    font-size: 15px;
+    color: #6E6E6E;
+    justify-content: space-around;
+}
+
+.centent-option>p {
+    color: #6E6E6E;
+    font-size: 12px;
+    position: relative;
+}
+
+.centent-option>p>input {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 2px;
+    left: -20px;
+}
+
+.centent-option>a {
+    color: #1A66B3;
+}
+
+.centent-cooperation {
+    width: 100%;
+    height: 52px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.centent-cooperation>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.centent-cooperation>div>span {
+    color: #6E6E6E;
+}
+
+.centent-cooperation>div>a:last-of-type {
+    color: #6E6E6E;
+}
+
+.centent-cooperation>div>a:first-of-type {
+    color: #1A66B3;
+}
+
+.centent-cooperation>p {
+    display: flex;
+}
+
+.centent-cooperation>p>span {
+    width: 20px;
+    height: 20px;
+    display: block;
+    line-height: 20px;
+    margin: 6px 4px 0 0;
+}
+
+.centent-cooperation>p>a {
+    margin: 8px 0 0 9px;
+    color: #969696;
+}
+
+.centent-cooperation>p>span:nth-of-type(1) {
+    background: url(../images/logo-jingling.png)0 -260px no-repeat;
+}
+
+.centent-cooperation>p>span:nth-of-type(2) {
+    background: url(../images/logo-jingling.png)0 -280px no-repeat;
+}
+
+.centent-cooperation>p>span:nth-of-type(3) {
+    background: url(../images/logo-jingling.png)0 -300px no-repeat;
+}
+
+.centent-cooperation>p>span:nth-of-type(4) {
+    background: url(../images/logo-jingling.png)0 -320px no-repeat;
+}
+
+
+/* 网页尾部 */
+
+.footer {
+    width: 100%;
+    height: 563px;
+    border-top: 1px solid #F1F1F1;
+}
+
+.footer-b {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    color: #8c8c8c;
+}
+
+.footer-b-t,
+.footer-b-m,
+.footer-b-b {
+    display: flex;
+    margin: 0 auto;
+}
+
+.footer-b-t>li,
+.footer-b-m>li,
+.footer-b-b>li {
+    padding: 0 18px;
+    border-right: 2px solid #A1A1A1;
+}
+
+.footer-b-t>li:last-of-type,
+.footer-b-m>li:last-of-type,
+.footer-b-b>li:last-of-type {
+    border: 0;
+}
+
+.footer-b-t {
+    padding: 17px 0;
+}
+
+.footer-b>p {
+    padding: 10px 0;
+}
+
+.footer-b a {
+    color: #8c8c8c;
+}
+
+.footer-b a:hover {
+    color: orange;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo>a {
+    padding: 30px;
+    border: 0;
+}
